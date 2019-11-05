@@ -1,100 +1,102 @@
+# React Material Admin — Material-UI Dashboard Template
 
-# Vue Material Admin
+Built with [React](https://facebook.github.io/react/), [Material-UI](https://material-ui.com), [React Router](https://reacttraining.com/react-router/).
+**No jQuery and Bootstrap!**
 
-[![CircleCI](https://circleci.com/gh/tookit/vue-material-admin/tree/dev.svg?style=svg)](https://circleci.com/gh/tookit/vue-material-admin/tree/dev)
+**This version uses React 16.8.6, React Router v5, MaterialUI v4, built with React Hooks and React Context (No Redux)**
 
-## Plan and features
-* will create a new template by vue-cli 3.x 
-* will remove some useless code becuase of the vuetify framework updates  
-* may add vue-nuxt support
-* may add vuex support and sample code
-* will refactor the whole code 
+[Demo](https://flatlogic.com/admin-dashboards/react-material-admin/demo). Use any credentials to log in.
 
-## Introduction
-Vue Material Admin Template is a [Vue](https://vuejs.org/index.html/) Based Material Design Admin Template.
-And use [Vuetifyjs](https://vuetifyjs.com/) as base framework.
-Vuetify is Awesome.
+[![image](https://user-images.githubusercontent.com/24964748/55800639-df780300-5adc-11e9-84b7-7c2437088516.png)](https://flatlogic.com/admin-dashboards/react-material-admin/demo)
 
-## Demo
-[http://vma.isocked.com/#/dashboard] (Old) 
-[http://dev-vma.isocked.com/#/dashboard] (dev) 
-## Preview
-![Preivew](http://vma.isocked.com//static/preview/01_preview.png)
+## Features
 
-## Project Structure
-``` bash
-├── build
-├── config (Webpack)
-├── src
-│   ├── api
-│   ├── components
-│   ├── mixins
-│   ├── views (or views)
-│   ├── router
-│   ├── util
-│   ├── theme
-│   │   ├── default.styl
-│   └── App.vue
-│   └── event.js
-│   └── main.js
-├── dist
-├── release
-├── static (or asset)
-├── mock (or script to build mock data)
-├── node_modules
-├── test
-├── README.md
-├── package.json
-├── index.html
-└── .gitignore
+- React (**16.8.6**)
+- React Hooks
+- React Context
+- **No jQuery and Bootstrap!**
+- Mobile friendly layout (responsive)
+- Create-react-app under the hood
+- React Router v5
+- Material-UI v4
+- Modular Architecture
+- CSS-in-JS styles
+- Webpack build
+- Stylish, clean, responsive layout
+- Authentication
+
+## Pages
+
+We have implemented some basic pages, so you can see our template in action.
+
+- Dashboard
+- Typography
+- Tables
+- Notifications
+- Charts
+- Icons
+- Maps
+- Login
+- Error
+
+## Quick Start
+
+#### 1. Get the latest version
+
+You can start by cloning the latest version of React Dashboard on your
+local machine by running:
+
+```shell
+$ git clone https://github.com/flatlogic/react-material-admin.git MyApp
+$ cd MyApp
 ```
 
-## Project setup
-```
-yarn install
-```
+#### 2. Run `yarn install`
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+This will install both run-time project dependencies and developer tools listed
+in [package.json](package.json) file.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+#### 3. Run `yarn start`
 
-### Run your tests
-```
-yarn run test
-```
+Runs the app in the development mode.
 
-### Lints and fixes files
-```
-yarn run lint
-```
+Open http://localhost:3000 to view it in the browser. Whenever you modify any of the source files inside the `/src` folder,
+the module bundler ([Webpack](http://webpack.github.io/)) will recompile the
+app on the fly and refresh all the connected browsers.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### 4. Run `yarn build`
 
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Reference
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-* [Vuetifyjs](https://vuetifyjs.com/)
-* [Vue](https://vuejs.org/index.html/)
-* [ECharts](http://echarts.baidu.com/option.html)
-* [Stylus](http://stylus-lang.com/)
+## Support
 
-### Donate
-If you find this project useful, you can buy author a glass of juice :tropical_drink:
+For any additional information please refer to [Flatlogic homepage](https://flatlogic.com).
 
+## How can I support developers?
 
-[Paypal Me](https://www.paypal.me/tookit)
+- Star our GitHub repo :star:
+- [Tweet about it](https://twitter.com/intent/tweet?text=Amazing%20dashboard%20built%20with%20NodeJS,%20React%20and%20Bootstrap!&url=https://github.com/flatlogic/react-material-template&via=flatlogic).
+- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
+- Follow [@flatlogic on Twitter](https://twitter.com/flatlogic).
+- Subscribe to Flatlogic newsletter at [flatlogic.com](https://flatlogic.com/)
+- Like our page on [Facebook](https://www.facebook.com/flatlogic/) :thumbsup:
 
-[Buy me a coffee](https://www.buymeacoffee.com/tookit)
+## More from Flatlogic
 
-<a href="https://www.buymeacoffee.com/tookit" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+- [React Native Starter](https://github.com/flatlogic/react-native-starter) - 🚀 A powerful react native starter template that bootstraps development of your mobile application
+- [Sing App](https://github.com/flatlogic/sing-app) - 💥 Free and open-source admin dashboard template built with Bootstrap 4
+- [Awesome Bootstrap Checkboxes & Radios](https://github.com/flatlogic/awesome-bootstrap-checkbox) - ✅ Pure css way to make inputs look prettier
+- [React Dashboard](https://github.com/flatlogic/react-dashboard) - 🔥 React Dashboard - isomorphic admin dashboard template with GraphQL
+- [Light Blue Dashboard](https://github.com/flatlogic/light-blue-dashboard) - 💦 Free and open-source admin dashboard template built with Bootstrap
+
+## Premium themes
+
+Looking for premium themes and templates? Check out more [admin dashboard templates at flatlogic.com](https://flatlogic.com/admin-dashboards).
 
 ## License
 
-[MIT](https://github.com/tookit/vue-material-admin/blob/master/LICENSE)
+[MIT](https://github.com/flatlogic/react-material-dashboard/blob/master/LICENSE.txt).
